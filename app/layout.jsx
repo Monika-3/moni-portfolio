@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={jet.variable}>
       <body>
-        <Header />
+        <Header/>
         <StairTransition/>
         <PageTransition>{children}</PageTransition>
       </body>

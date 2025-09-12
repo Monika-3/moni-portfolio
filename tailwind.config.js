@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "15px",
+      padding: "10px",
     },
     screens: {
       sm: "640px",

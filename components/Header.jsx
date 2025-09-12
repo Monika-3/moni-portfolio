@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 
@@ -8,7 +9,7 @@ import MobileNav from "./MobileNav";
 
 const Header = () =>{
     return(
-        <header className="py-8 xl:py-12 text-white">
+        <header className="py-8 xl:py-4 text-white">
             <div className="container mx-auto flex justify-between items-center">
                 {/*logo*/}
                 <Link href="/">
