@@ -3,15 +3,15 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 //components
-import Header from "@/components/Header"
+import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
 
-const jet  = JetBrains_Mono({
+const jet = JetBrains_Mono({
   subsets: ["latin"],
-  weight:["100","200","300","400","500","600","700","800"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-jet",
 });
-
-
 
 export const metadata = {
   title: "Create Next App",
@@ -20,10 +20,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={jet.variable} >
+    <html lang="en" className={jet.variable}>
       <body>
-        <Header/>
-        {children}
+        <Header />
+        <StairTransition/>
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
