@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import Link from "next/link";
 
 //components
 import Social from "@/components/Social";
@@ -27,9 +28,12 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                asChild
               >
-                <span>My Resume</span>
+                <Link href = "/assets/resume/Monika Resume.pdf">My Resume
                 <FiDownload className="text-xl" />
+                </Link>
+                
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
