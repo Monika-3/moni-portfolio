@@ -26,6 +26,7 @@ module.exports = {
           DEFAULT: "#00ff99",
           hover: "#00e187",
         },
+        arrow: "#40C057",
       },
       keyframes: {
         "accordion-down": {
