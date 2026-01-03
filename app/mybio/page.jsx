@@ -12,7 +12,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "Seeking first IT work experience",
+      fieldValue: "Eager to begin IT journey",
     },
     {
       fieldName: "Nationality",
